@@ -1,0 +1,27 @@
+{
+    "name": "pwinty/php-pwinty",
+    "description": "PHP API wrapper for Pwinty.com",
+    "keywords": ["pwinty", "pwinty.com", "api"],
+    "license": "CC-BY-3.0",
+    "authors": [
+        {
+            "name": "Brad Pineau",
+            "role": "Developer"
+        },
+        {
+            "name": "Dan Hudster",
+            "homepage": "https://github.com/hudster",
+            "role": "Developer"
+        },
+        {
+            "name": "Andy Wright",
+            "homepage": "https://github.com/atwright147",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "pwinty\\" : "src/"
+        }
+    }
+}
